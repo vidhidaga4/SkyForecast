@@ -1,0 +1,56 @@
+.SearchBox{
+    text-align: center;
+    margin: 2px auto;
+    padding-bottom:10px;
+    padding-top:8px;
+    border-radius: 10px;
+} 
+
+
+.SearchBox .MuiInputBase-root {
+    color: #fff;
+    /* White text color */
+}
+
+.SearchBox .MuiFormLabel-root {
+    color: #fff;
+    /* White color for the label */
+}
+
+.SearchBox .MuiInputBase-input {
+    background-color: #333;
+    /* Dark grey background */
+}
+
+
+
+.SearchBox .MuiOutlinedInput-notchedOutline {
+    border-color: #fff;
+    /* Grey border color */
+}
+
+.SearchBox .MuiOutlinedInput-root:hover .MuiOutlinedInput-notchedOutline {
+    border-color: #888;
+    /* Darker border color on hover */
+}
+
+.SearchBox .MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline {
+    border-color: #fff;
+    /* White border color when focused */
+}
+
+.SearchBox button {
+    background-color: #555;
+    color: white;
+    padding: 6px 12px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    margin-top: 2px;
+    margin-bottom:5px;
+    font-size: 0.875rem;
+}
+
+.SearchBox button:hover {
+    background-color: #777;
+}
+

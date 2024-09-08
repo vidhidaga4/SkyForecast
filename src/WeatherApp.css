@@ -1,0 +1,15 @@
+.error-container {
+    text-align: center;
+    margin-top: 20px;
+    padding: 50px;
+    background-color: #333;
+    border-radius: 10px;
+    max-width: 300px;
+    max-height:400px;
+    margin: 20px auto;
+}
+
+.error-container p{
+    color:white;
+    font-size:20px;
+}
